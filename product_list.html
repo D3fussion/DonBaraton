@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="es">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Product List</title>
+  <link rel="stylesheet" href="/css/nicepage.css" media="screen">
+  <link rel="stylesheet" href="/css/product_list.css" media="screen">
+  <script class="u-script" type="text/javascript" src="/js/jquery.js" defer=""></script>
+  <script class="u-script" type="text/javascript" src="/js/nicepage.js" defer=""></script>
+  <link id="u-theme-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+</head>
+
+<body data-path-to-root="./" data-include-products="true" class="u-body u-xl-mode" data-lang="es">
+  <header
+    class=" u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-clearfix u-header u-section-row-container"
+    id="sec-89a6" style="">
+    <div class="u-section-rows">
+      <div class="u-clearfix u-custom-color-2 u-section-row u-sticky u-sticky-ec53" data-animation-name=""
+        data-animation-duration="0" data-animation-delay="0" data-animation-direction="" id="sec-05cc">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1"><span class="u-file-icon u-icon u-text-white u-icon-1"
+            data-href="cart.html"><img src="images/1170678-a4bd63a6.png" alt=""></span><span
+            class="u-file-icon u-icon u-text-white u-icon-2"><img src="images/122164-02c998d6.png" alt=""></span>
+          <p class="u-text u-text-body-color u-text-default u-text-1"><span id="cart-counter" id="cart-counter"></span>
+          </p>
+          <a href="./homepage.html" class="izquierda u-align-center-xs u-image u-logo u-image-1" data-image-width="987"
+            data-image-height="234" title="Homepage">
+            <img src="images/Logorecortado.png" class="u-logo-image u-logo-image-1">
+          </a>
+          <form action="" id="Buscar" method="get"
+            class="u-border-1 u-border-grey-30 u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-search u-search-right u-white u-search-1">
+            <button class="u-search-button" type="submit">
+              <span class="u-search-icon u-spacing-10 u-search-icon-1">
+                <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 56.966 56.966" style="">
+                  <use xlink:href="#svg-eb5c"></use>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  id="svg-eb5c" x="0px" y="0px" viewBox="0 0 56.966 56.966"
+                  style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" class="u-svg-content">
+                  <path
+                    d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z">
+                  </path>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                </svg>
+              </span>
+            </button>
+            <input class="u-search-input" type="search" name="search" value="" placeholder="Search">
+          </form><span class="u-file-icon u-icon u-text-white u-icon-3" data-href="login.html"><img
+              src="images/310869-77cf7e21.png" alt=""></span>
+        </div>
+
+
+
+
+
+      </div>
+      <div class="u-container-align-center u-palette-1-base u-section-row u-sticky u-sticky-5a80" id="sec-ef3e">
+        <div class="u-clearfix u-sheet u-sheet-2"></div>
+
+
+
+
+
+      </div>
+    </div>
+  </header>
+  <section class="u-clearfix u-palette-1-light-3 u-section-1" id="sec-5894">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
+        <select style="padding: 10px;" id="selectornator">
+          <option value="bestMatch">Best Match</option>
+          <option value="low">Lowest First</option>
+          <option value="high">Highest First</option>
+        </select>
+      </div>
+    </div>
+  </section>
+  <section id="aquiVanLosProductos">
+
+  </section>
+  <section class="u-clearfix u-section-4" id="sec-b395">
+    <div class="u-clearfix u-sheet u-sheet-1"></div>
+  </section>
+
+
+  <section class="hacerlo_grande"></section>
+
+  <footer class="u-align-center u-clearfix u-container-align-center u-footer u-palette-1-base u-footer" id="sec-a1e1">
+    <div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+      <div
+        class="data-layout-selected u-clearfix u-expanded-width u-layout-custom-sm u-layout-custom-xs u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout" style="">
+          <div class="u-layout-row" style="">
+            <div class="u-container-align-center-xs u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+              <div class="u-container-layout u-valign-middle u-container-layout-1">
+                <p class="u-align-center u-text u-text-1">
+                  <span style="font-weight: 700;">Address&nbsp;</span>
+                  <br>Fake Street 123, Nonexistent Neighborhood, Between Corner of Lies and Invisible Street, Imaginary
+                  City, Invented State, Zip Code 00000 <br>
+                  <span style="font-weight: 700;"></span>
+                </p>
+              </div>
+            </div>
+            <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+              <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-xl u-container-layout-2">
+                <p class="u-align-center u-text u-text-default u-text-2">Why people like us!<br>
+                  <span style="font-weight: 400;">People love shopping with us online because it's fast, easy, and
+                    filled with all their favorite products! Plus, we offer great deals and convenient delivery options
+                    right to your door.</span>
+                  <br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <section
+    class="u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-middle u-dialog-section-10"
+    id="sec-1960">
+    <div
+      class="u-align-center u-border-2 u-border-grey-75 u-container-align-center u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-container-style u-dialog u-radius u-shape-round u-white u-dialog-1">
+      <div class="u-container-layout u-container-layout-1">
+        <p class="u-text u-text-default u-text-1">Product added to cart! </p><span
+          class="u-file-icon u-icon u-icon-1"><img src="images/1023656.png" alt=""></span>
+      </div><button class="u-dialog-close-button u-icon u-text-grey-40 u-icon-2"><svg class="u-svg-link"
+          preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style="">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-efe9"></use>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+          xml:space="preserve" class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-efe9">
+          <rect x="7" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="2" height="16">
+          </rect>
+          <rect x="0" y="7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -3.3138 8.0002)" width="16" height="2">
+          </rect>
+        </svg></button>
+    </div>
+  </section>
+  <style>
+    .u-dialog-section-10 .u-dialog-1 {
+      width: 350px;
+      min-height: 62px;
+      height: auto;
+      --radius: 25px;
+      margin: 60px auto;
+    }
+
+    .u-dialog-section-10 .u-container-layout-1 {
+      padding: 0;
+    }
+
+    .u-dialog-section-10 .u-text-1 {
+      font-weight: 500;
+      font-size: 1.125rem;
+      margin: 16px auto 0;
+    }
+
+    .u-dialog-section-10 .u-icon-1 {
+      width: 40px;
+      height: 40px;
+      margin: -34px auto 0 16px;
+      padding: 0;
+    }
+
+    .u-dialog-section-10 .u-icon-2 {
+      width: 20px;
+      height: 20px;
+    }
+
+    @media (max-width: 1199px) {
+      .u-dialog-section-10 .u-dialog-1 {
+        min-height: 61px;
+      }
+
+      .u-dialog-section-10 .u-icon-1 {
+        margin-top: -36px;
+      }
+    }
+
+    @media (max-width: 991px) {
+      .u-dialog-section-10 .u-dialog-1 {
+        min-height: 63px;
+      }
+
+      .u-dialog-section-10 .u-text-1 {
+        width: auto;
+      }
+
+      .u-dialog-section-10 .u-icon-1 {
+        margin-top: -35px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .u-dialog-section-10 .u-dialog-1 {
+        min-height: 59px;
+      }
+
+      .u-dialog-section-10 .u-text-1 {
+        margin-top: 15px;
+      }
+
+      .u-dialog-section-10 .u-icon-1 {
+        margin-top: -36px;
+        margin-left: 15px;
+      }
+    }
+
+    @media (max-width: 575px) {
+      .u-dialog-section-10 .u-dialog-1 {
+        width: 340px;
+      }
+    }
+  </style>
+
+  <script type="text/javascript" src="/js/product_list.js"></script>
+</body>
+
+</html>
