@@ -41,7 +41,6 @@ document.querySelector('.u-form-submit a').addEventListener('click', function (e
             if (data.message === 'Login successful') {
                 // Redirect to account details page on successful login
                 console.log(data);
-                alert('Login successful');
                 window.location.href = 'account_details.html';
             } else {
                 alert('Invalid email or password');
