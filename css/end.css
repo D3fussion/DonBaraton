@@ -135,6 +135,10 @@
     min-height: 639px;
   }
 
+  #sec-ef3e {
+    height: 5px !important; /* todo */
+  }
+
   .u-section-1 .u-image-1 {
     min-height: 344px;
   }
