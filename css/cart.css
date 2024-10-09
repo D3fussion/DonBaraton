@@ -729,7 +729,7 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 998px;
+    min-height: 800px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -905,11 +905,17 @@
   .u-section-1 .u-layout-cell-20 {
     min-height: 6px;
   }
+	.scroll {
+    overflow-x: auto;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+    width: 100%;
+
+}
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 993px;
+    min-height: 800px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -1031,8 +1037,13 @@
   .u-section-1 .u-btn-3 {
     margin-right: auto;
   }
-}.scroll {
-	overflow: auto;
+
+	.scroll {
+    overflow-x: auto;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+    width: 100%;
+
+}
 }
 @media (min-width: 768px) {
     .letraPeque {
