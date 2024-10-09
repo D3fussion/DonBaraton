@@ -98,6 +98,10 @@
     min-height: 228px;
   }
 
+ #sec-ef3e {
+    height: 5px !important; /* todo */
+  }
+
   .u-section-1 .u-gallery-1 {
     height: 228px;
     width: auto;
