@@ -293,7 +293,7 @@
   }
 
   .u-section-1 .u-shape-1 {
-    margin-top: -15px;
+    margin-top: 6px;
     width: auto;
   }
 
@@ -423,6 +423,10 @@
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
     min-height: 897px;
+  }
+
+  .u-carousel-thumbnails {
+    display: none !important;
   }
 
   .u-section-2 .u-btn-1 {
