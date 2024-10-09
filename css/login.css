@@ -209,6 +209,10 @@
     min-height: 827px;
   }
 
+ #sec-ef3e {
+    height: 5px !important; /* todo */
+  }
+
   .u-section-1 .u-layout-wrap-1 {
     margin-top: 30px;
     margin-bottom: 29px;
