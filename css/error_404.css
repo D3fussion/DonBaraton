@@ -35,6 +35,10 @@
   .u-section-1 .u-text-2 {
     margin-left: 28px;
   }
+
+  #sec-ef3e {
+    height: 5px !important; /* todo */
+  }
 }
 
 .hacerlo_grande {
