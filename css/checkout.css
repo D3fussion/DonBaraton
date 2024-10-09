@@ -202,6 +202,10 @@
     min-height: 527px;
   }
 
+  #sec-ef3e {
+    height: 5px !important; /* todo */
+  }
+
   .u-section-1 .u-layout-cell-2 {
     min-height: 85px;
   }
