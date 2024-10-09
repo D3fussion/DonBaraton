@@ -357,6 +357,10 @@
   min-height: 148px;
 }
 
+#sec-ef3e {
+    height: 5px !important; /* todo */
+  }
+
 .u-section-4 .u-btn-1 {
   font-weight: 700;
   text-transform: uppercase;
