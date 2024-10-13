@@ -22,7 +22,7 @@ function getProductCodeFromURL() {
   if (code) {
     return code;
   } else {
-    window.location.href = "error_404.html"
+    window.location.href = "404.html"
   }
 }
 
@@ -42,7 +42,7 @@ if (productCode) {
     .then(products => {
       productsList = products;
       if (products.length === 0) {
-        window.location.href = "error_404.html";
+        window.location.href = "404.html";
       }
       sortArticles(document.getElementById("selectornator").value, productsList)  // Llamar a la función que renderiza los productos
     });
