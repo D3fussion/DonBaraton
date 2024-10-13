@@ -22,7 +22,7 @@ function getCodigoProducto() {
 
     // Si no existe o está vacío, redirigir a la página de error
     if (!codigo) {
-        window.location.href = "error_404.html";
+        window.location.href = "404.html";
     } else {
         return codigo;
     }
