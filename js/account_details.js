@@ -187,11 +187,17 @@ document.getElementById('MyOrders').addEventListener('click', function (event) {
     .catch(error => console.error('Error logging out session:', error));
 });
 
-
+function eliminarDiacriticosEs(texto) {
+  return texto
+         .normalize('NFD')
+         .replace(/([^n\u0300-\u036f]|n(?!\u0303(?![\u0300-\u036f])))[\u0300-\u036f]+/gi,"$1")
+         .normalize();
+}
 
 document.getElementById('Buscar').addEventListener('submit', function (event) {
   event.preventDefault(); // Prevent the default form submission
   var query = document.querySelector('#Buscar input[name="search"]').value;
+  query = eliminarDiacriticosEs(query);
   if (query) {
     window.location.href = "./product_list.html?" + encodeURIComponent(query.trim().replace(/\s+/g, '-'));
   }
