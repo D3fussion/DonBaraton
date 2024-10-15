@@ -353,13 +353,14 @@
   .u-section-3 .u-repeater-1 {
     grid-auto-columns: 100%;
   }
+
+ #sec-ef3e {
+    height: 5px !important; /* todo */
+  }
+ 
 }.u-section-4 .u-sheet-1 {
   min-height: 148px;
 }
-
-#sec-ef3e {
-    height: 5px !important; /* todo */
-  }
 
 .u-section-4 .u-btn-1 {
   font-weight: 700;
