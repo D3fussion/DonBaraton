@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Si el formulario no es válido, mostrar alerta
         if (!formValid) {
-            alert("Por favor, completa todos los campos correctamente.");
+            alert("Please, fill out all the form correctly");
             return;
         }
 
